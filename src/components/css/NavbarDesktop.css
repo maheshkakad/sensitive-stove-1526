@@ -1,0 +1,65 @@
+.nav-links-1,
+.nav-links-2 {
+  width: 75%;
+  list-style: none;
+  padding: 0;
+}
+
+.nav-links-1 {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.nav-links-2 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.logo,
+.products,
+.solutions,
+.pricing,
+.resources,
+.contact,
+.Language,
+.login,
+.sign-up {
+  text-decoration: none;
+  color: snow;
+  font-size: 14px;
+  padding: 0 10px;
+  margin: 0 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.login {
+  color: #08b85a;
+  font-weight: bolder;
+}
+
+.navbar-button {
+  font-size: 14px;
+  padding: 10px 20px;
+  border: none;
+  border: none;
+  border-radius: 5px;
+  background-color: #07cf65;
+  color: snow;
+}
+
+.hover:hover {
+  border-bottom: 2px solid #08b85a;
+  color: #08b85a;
+}
+
+@keyframes hover-menu {
+  from {
+    top: 100px;
+  }
+  to {
+    top: 92px;
+  }
+}
