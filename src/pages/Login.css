@@ -1,0 +1,58 @@
+
+  .containerlogin {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: "red";
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+  }
+  .container form {
+    width: 90%;
+    border: 1px solid #dfdfdf;
+    padding: 20px;
+    border-radius: 5px;
+   background-color: white;
+  }
+  pre {
+    width: 70%;
+    color: #fff;
+    font-size: larger;
+  }
+  
+  button {
+    background:rgb(37, 87, 167);
+  }
+  p {
+  }
+  .heading1 {
+    display:flex ;
+    justify-content: flex-start;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  .heading2 {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .imgOne {
+    display:flex;
+    gap: 85px;
+    padding: 5px;
+    height: 38px;
+    border:1px solid black;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-weight: bolder;
+   
+     
+  }
+  .paralogin {
+    color: gray;
+    font-size:smaller;
+    text-align: justify;
+   
+  }

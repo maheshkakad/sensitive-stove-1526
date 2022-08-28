@@ -1,0 +1,34 @@
+.navbar-button {
+    font-size: 14px;
+    padding: 10px 20px;
+    border: none;
+    border: none;
+    border-radius: 5px;
+    background-color: #07cf65;
+    color: snow;
+  }
+  
+  .mobile-navbar-accordion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-dropdown-accordion {
+    list-style: none;
+    padding: 0px 1rem;
+    line-height: 0.5rem;
+  }
+  
+  .navbar-dropdown-accordion li {
+    padding: 0.5rem 0;
+    margin: 2px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-dropdown-accordion-h4 {
+    color: #777;
+    padding: 0px 0px;
+  }
+  
